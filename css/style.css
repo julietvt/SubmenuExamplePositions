@@ -1,0 +1,55 @@
+body{
+    padding: 30px;
+    background-color: burlywood;
+}
+
+.navCont{
+    margin-bottom: 40px;
+}
+
+.navItemCont{
+    display: inline-block;
+    position: relative;
+}
+
+.navItem{
+    display: inline-block;
+    width: 200px;
+    background-color: #4d3e2d;
+    color: white;
+    text-align: center;
+    border: 1px solid #100d08;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navigation{
+    font-size: 0;
+}
+
+a, a:visited, a:active, a:link, a:hover{
+    text-decoration: none;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+}
+
+.dropDownMenu{
+    top: 100%;
+    left: -40px;
+}
+
+.navItemCont:hover > .submenu{
+    display: block;
+}
+
+.submeniItem{
+    display: list-item;
+}
+
